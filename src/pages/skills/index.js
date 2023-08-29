@@ -57,7 +57,7 @@ export const Skills = () => {
             <h2 className="color_sec py-4">Skills</h2>
             <h2 className="color_sec py-4">Proficiency</h2>
           </div>
-          <Col lg="20" className="d-flex flex-column ">
+          <Col lg="20" className="d-flex flex-column  align-items-center">
             {skills.map((skills, i) => {
               return (
                 <div className="d-flex flex-row">
