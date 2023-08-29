@@ -1,6 +1,6 @@
 const logotext = "Bernard Kah Huan Yap";
 const meta = {
-  title: "Bernard",
+  title: "Bernard Yap's portfolio",
   description:
     "I'm Bernard, a Full-Stack Software Engineer from the University of Michigan.",
 };
@@ -128,6 +128,11 @@ const skills = [
     color: "#26d93c",
   },
   {
+    name: "Problem-solving",
+    proficiency: "100%",
+    color: "#26d93c",
+  },
+  {
     name: "Fast-learner",
     proficiency: "100%",
     color: "#26d93c",
@@ -149,6 +154,18 @@ const skills = [
   },
   {
     name: "Team player",
+
+    proficiency: "100%",
+    color: "#26d93c",
+  },
+  {
+    name: "Clear communicator",
+
+    proficiency: "100%",
+    color: "#26d93c",
+  },
+  {
+    name: "Curious and motivated",
 
     proficiency: "100%",
     color: "#26d93c",
