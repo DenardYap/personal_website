@@ -391,7 +391,7 @@ const work = [
   {
     company: "Amazon",
     time: "May 2023 - Jul 2023",
-    position: "Software Development Intern",
+    position: "Software Development Engineer Intern",
     location: "Culver City, California",
     bullet: [
       "Architected user-friendly, robust, and reliable internal tools for royalties and payment data by implementing REST API endpoints and designing simplified MySQL queries and schema (RDS), which streamline data investigation, reconciliation, reporting, and financial analytics processes and save significant time and effort for the team",
