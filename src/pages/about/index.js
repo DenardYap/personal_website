@@ -7,6 +7,7 @@ import {
   meta,
   worktimeline,
   skills,
+  languages,
 } from "../../content_option";
 
 export const About = () => {
@@ -31,6 +32,7 @@ export const About = () => {
           <Col lg="7" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
+              <p>{dataabout.aboutme2}</p>
             </div>
           </Col>
         </Row>
@@ -52,6 +54,24 @@ export const About = () => {
                 })}
               </tbody>
             </table>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Languages</h3>
+          </Col>
+          <Col lg="7" className="grid-container">
+            {languages.map((languages, i) => {
+              return (
+                <div key={i}>
+                  <Card className="skill-card">
+                    <Card.Body>
+                      <h3 className="card-title">{languages.name}</h3>
+                    </Card.Body>
+                  </Card>
+                </div>
+              );
+            })}
           </Col>
         </Row>
         <Row className="sec_sp">
