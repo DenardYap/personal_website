@@ -37,7 +37,7 @@ const worktimeline = [
   {
     jobtitle: "Machine Learning Instructional Aide",
     where: "Taylor’s Me.reka Makerspace",
-    date: "2020/09 - 2021/06",
+    date: "2023/01 - 2023/04",
   },
   {
     jobtitle: "IoT & Electronics Intern",
@@ -364,7 +364,7 @@ const hobby = [
   {
     name: "Cooking",
     description:
-      "I love making foods in my free time because it saves me a lot of money, also it gives me a great sense of accomplishment when my food comes up great",
+      "I love making foods in my free time because it saves me a lot of money, also it gives me a great sense of accomplishment when my food comes out great",
     img: ["/hobby/food1.jpg", "/hobby/food2.jpg", "/hobby/food3.jpg"],
   },
   {
@@ -448,7 +448,7 @@ const courses = [
   "Object-Oriented Programming",
   "Data Structure & Algorithm",
   "Computer Vision",
-  "Natural Language Process",
+  "Natural Language Processing",
   "Introduction to Machine Learning",
   "Database Management System",
   "Operating System",
