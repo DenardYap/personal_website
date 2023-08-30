@@ -365,13 +365,19 @@ const hobby = [
     name: "Cooking",
     description:
       "I love making foods in my free time because it saves me a lot of money, also it gives me a great sense of accomplishment when my food comes out great",
-    img: ["/hobby/food1.jpg", "/hobby/food2.jpg", "/hobby/food3.jpg"],
+    img: [
+      "/hobby/food1.jpg",
+      "/hobby/food2.jpg",
+      "/hobby/food3.jpg",
+      "/hobby/food4.jpg",
+      "/hobby/food5.jpg",
+    ],
   },
   {
     name: "Coffee",
     description:
       "I love making and drinking coffee, I discovered this hobby when my mom bought a coffee machine and I learned how to make latte art as well",
-    img: ["/hobby/coffee1.jpg"],
+    img: ["/hobby/coffee1.jpg", "/hobby/coffee2.jpg"],
   },
   {
     name: "Building stuff",
