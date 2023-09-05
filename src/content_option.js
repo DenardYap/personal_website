@@ -234,8 +234,8 @@ const dataportfolio = [
   {
     img: "project-images/runner.png",
     description:
-      "(Coming Soon) Working on an app with a mission to reduce world-wide obesity rate",
-    link: "#",
+      "Working on an app with a mission to reduce world-wide obesity rate",
+    link: "https://apps.apple.com/us/app/ralker/id6464116429",
   },
   {
     img: "project-images/dqd.png",
