@@ -232,9 +232,9 @@ const languages = [
 
 const dataportfolio = [
   {
-    img: "project-images/runner.png",
+    img: "project-images/animalpace.png",
     description:
-      "Working on an app with a mission to reduce world-wide obesity rate",
+      "(Ongoing) A fitness app that gamifies your running/walking exercises",
     link: "https://apps.apple.com/us/app/ralker/id6464116429",
   },
   {
