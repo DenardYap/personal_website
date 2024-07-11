@@ -30,6 +30,16 @@ const dataabout = {
 };
 const worktimeline = [
   {
+    jobtitle: "Founder/Lead Software Engineer",
+    where: "Campfire Loyalty",
+    date: "2023/09 - Present",
+  },
+  {
+    jobtitle: "Front-end Engineer (Freelance)",
+    where: "panoRazzi",
+    date: "2024/01 - 2024/03",
+  },
+  {
     jobtitle: "Software Development Engineer Intern",
     where: "Amazon",
     date: "2023/05 - 2023/07",
@@ -40,8 +50,8 @@ const worktimeline = [
     date: "2023/01 - 2023/04",
   },
   {
-    jobtitle: "IoT & Electronics Intern",
-    where: "IoT & Electronics Intern",
+    jobtitle: "Software & Hardware Engineer Intern",
+    where: "Taylor’s Me.reka Makerspace",
     date: "2020/09 - 2021/06",
   },
   {
@@ -53,13 +63,18 @@ const worktimeline = [
 
 const skills = [
   {
+    name: "React Native",
+    proficiency: "99.9%",
+    color: "#26d93c",
+  },
+  {
     name: "React",
-    proficiency: "99%",
+    proficiency: "99.9%",
     color: "#26d93c",
   },
   {
     name: "AWS",
-    proficiency: "99%",
+    proficiency: "99.9%",
     color: "#26d93c",
   },
   {
@@ -73,23 +88,18 @@ const skills = [
     color: "#26d93c",
   },
   {
-    name: "React Native",
-    proficiency: "80%",
-    color: "#8be41b",
-  },
-  {
     name: "Tensorflow",
-    proficiency: "75%",
+    proficiency: "80%",
     color: "#ff8300",
   },
   {
     name: "Pytorch",
-    proficiency: "75%",
+    proficiency: "80%",
     color: "#ff8300",
   },
   {
     name: "Git",
-    proficiency: "99%",
+    proficiency: "99.9%",
     color: "#26d93c",
   },
   {
@@ -104,12 +114,12 @@ const skills = [
   },
   {
     name: "Stripe",
-    proficiency: "90%",
+    proficiency: "99%",
     color: "#26d93c",
   },
   {
     name: "Firebase",
-    proficiency: "90%",
+    proficiency: "99%",
     color: "#26d93c",
   },
   {
@@ -124,6 +134,26 @@ const skills = [
   },
   {
     name: "TailwindCSS",
+    proficiency: "99%",
+    color: "#26d93c",
+  },
+  {
+    name: "Bootstrap 3/4/5",
+    proficiency: "80%",
+    color: "#26d93c",
+  },
+  {
+    name: "Alpine.js",
+    proficiency: "90%",
+    color: "#26d93c",
+  },
+  {
+    name: "OOP",
+    proficiency: "99%",
+    color: "#26d93c",
+  },
+  {
+    name: "Design Pattern",
     proficiency: "99%",
     color: "#26d93c",
   },
@@ -154,19 +184,16 @@ const skills = [
   },
   {
     name: "Team player",
-
     proficiency: "100%",
     color: "#26d93c",
   },
   {
     name: "Clear communicator",
-
     proficiency: "100%",
     color: "#26d93c",
   },
   {
     name: "Curious and motivated",
-
     proficiency: "100%",
     color: "#26d93c",
   },
@@ -175,7 +202,7 @@ const skills = [
 const languages = [
   {
     name: "Python",
-    proficiency: "99%",
+    proficiency: "99.99%",
     color: "#26d93c",
   },
   {
@@ -185,17 +212,17 @@ const languages = [
   },
   {
     name: "Node.js",
-    proficiency: "99%",
+    proficiency: "99.99%",
     color: "#26d93c",
   },
   {
     name: "TypeScript",
-    proficiency: "95%",
+    proficiency: "99.99%",
     color: "#26d93c",
   },
   {
     name: "JavaScript",
-    proficiency: "99%",
+    proficiency: "99.99%",
     color: "#26d93c",
   },
   {
@@ -232,9 +259,14 @@ const languages = [
 
 const dataportfolio = [
   {
-    img: "project-images/animalpace.png",
+    img: "project-images/campfire.png",
     description:
-      "(Ongoing) A fitness app that gamifies your running/walking exercises",
+      "(Ongoing) A coalition loyalty program app where users can upload receipts and get points",
+    link: "https://www.campfireloyalty.com/",
+  },
+  {
+    img: "project-images/animalpace.png",
+    description: "A fitness app that gamifies your running/walking exercises",
     link: "https://apps.apple.com/us/app/ralker/id6464116429",
   },
   {
@@ -357,8 +389,8 @@ const hobby = [
   {
     name: "Weightlifting",
     description:
-      "Have been lifting for 1.5+ years, current PR - Deadlift 375lbs, Squat 255lbs, Bench 190lbs",
-    img: ["/hobby/deadlift.gif", "/hobby/squat.gif", "/hobby/bench.gif"],
+      "Have been lifting for 2+ years, current PR - Deadlift 405lbs, Squat 255lbs, Bench 205lbs",
+    img: ["/hobby/deadlift_405.gif", "/hobby/squat.gif", "/hobby/bench.gif"],
   },
 
   {
@@ -395,6 +427,40 @@ const hobby = [
 
 const work = [
   {
+    company: "Campfire Loyalty",
+    time: "Sep 2023 - Present",
+    position: "Founder/Lead Software Engineer",
+    location: "Ypsilanti, Michigan",
+    bullet: [
+      "Onboarded and increased 17+ businesses' customer engagement rates and acquired 5+ active users who regularly upload receipts and get rewarded by pitching door-to-door, outreaching, participating in events, and marketing",
+      "Designed a scalable loyalty program system that allows business owners to upload/edit/delete coupons, edit store information, audit transactions, and view metrics, and allows end-users to upload receipts, receive points, and purchase/redeem coupons (AWS, DynamoDB)",
+      "Implemented a $5 monthly coupon passport subscription service (Stripe) with features such as unsubscribing, resubscribing, and default/add/delete payment method by collaborating with MoCoShow",
+      "Implemented paginated APIs to fetch items such as getting nearby businesses/coupons and visualize them on the app's map feature, sorted by distance",
+      "Notify users of any promotional campaign, activity update, and confirmation message by implementing a scalable and secure notification mechanism that updates a user's notification ringbell, sends a push notification, and keeps track of their badge count",
+      "Built authentication mechanism that allows users to reset password, request new code, sign-up, sign-in, and delete account",
+      "Coded efficient and blazingly fast filtering and searching (with debounce) mechanism for in-app search engine",
+      "Manufactured internal tools that allows salespersons to onboard businesses and respond to queries/complaints",
+      "Design pleasant UI/UX with good use of pop-ups, animations, lines, shadows, icons, graphics, and maintaining consistent colors and fonts",
+      "Secure REST and Google APIs with Firebase App Check, JWT token, rate limiting, app/service restrictions, etc",
+      "Orchestrate excellent software with high availability, high scalability, and high frugality, striving for high-quality",
+      "Write high-performant front-end software using useCallback/useMemo, caching, and virtualization technique to enhance rendering speed",
+      "Streamline the user experience by building an in-app complaint mechanism and responding to emails and phone calls",
+      "Biased towards action, I make lean and quick decisions to ensure the team moves fast and feels a sense of urgency",
+      "Lead daily standups, sprint planning, code reviews, decision-making processes, and pair-programming sessions",
+    ],
+    img: [],
+  },
+  {
+    company: "panoRazzi",
+    time: "Jan 2024 - Mar 2024",
+    position: "Front-end Engineer (Freelance)",
+    location: "Johor Bahru, Malaysia",
+    bullet: [
+      "Built an Audit Report Builder software for the company with extensive use of Alpine.js, Bootstrap 5, and OOP",
+    ],
+    img: [],
+  },
+  {
     company: "Amazon",
     time: "May 2023 - Jul 2023",
     position: "Software Development Engineer Intern",
@@ -420,7 +486,7 @@ const work = [
   {
     company: "Taylor's Me.reka Makerspace",
     time: " Sep 2020 - Jun 2021",
-    position: "IoT & Electronics Intern",
+    position: "Software & Hardware Engineer Intern",
     location: "Selangor, Malaysia",
     bullet: [
       "Spearheaded the $100 computer project, which elevated digital literacy and bolstered online learning experiences in over 80 underprivileged families by conducting R&D, collaborated with 7 school’s executives for fundraising and media, and led a production line with more than 20 student volunteers",
@@ -451,6 +517,7 @@ const socialprofils = {
 };
 
 const courses = [
+  "Time-series data generator using Transformer (Research with Professor Vijay Subramanian)",
   "Object-Oriented Programming",
   "Data Structure & Algorithm",
   "Computer Vision",
@@ -467,6 +534,13 @@ const courses = [
 ];
 
 const education = [
+  {
+    school: "University of Michigan, Ann Arbor",
+    time: "Aug 2024 - May 2025 (expected)",
+    degree: "Master's in Computer Vision",
+    gpa: "N/A",
+    location: "Ann Arbor, Michigan",
+  },
   {
     school: "University of Michigan, Ann Arbor",
     time: "Aug 2021 - Dec 2023",
