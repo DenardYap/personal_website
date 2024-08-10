@@ -29,11 +29,11 @@ const dataabout = {
     "\nGrowth is the most important factor for me, so I prioritize working at a fast-growing startup, hit me up if you have a cool startup idea!",
 };
 const worktimeline = [
-  {
-    jobtitle: "Founder/Lead Software Engineer",
-    where: "Campfire Loyalty",
-    date: "2023/09 - Present",
-  },
+  // {
+  //   jobtitle: "Founder/Lead Software Engineer",
+  //   where: "Campfire Loyalty",
+  //   date: "2023/09 - Present",
+  // },
   {
     jobtitle: "Front-end Engineer (Freelance)",
     where: "panoRazzi",
@@ -426,30 +426,30 @@ const hobby = [
 ];
 
 const work = [
-  {
-    company: "Campfire Loyalty",
-    time: "Sep 2023 - Present",
-    position: "Founder/Lead Software Engineer",
-    location: "Ypsilanti, Michigan",
-    bullet: [
-      "Onboarded and increased 17+ businesses' customer engagement rates and acquired 5+ active users who regularly upload receipts and get rewarded by pitching door-to-door, outreaching, participating in events, and marketing",
-      "Designed a scalable loyalty program system that allows business owners to upload/edit/delete coupons, edit store information, audit transactions, and view metrics, and allows end-users to upload receipts, receive points, and purchase/redeem coupons (AWS, DynamoDB)",
-      "Implemented a $5 monthly coupon passport subscription service (Stripe) with features such as unsubscribing, resubscribing, and default/add/delete payment method by collaborating with MoCoShow",
-      "Implemented paginated APIs to fetch items such as getting nearby businesses/coupons and visualize them on the app's map feature, sorted by distance",
-      "Notify users of any promotional campaign, activity update, and confirmation message by implementing a scalable and secure notification mechanism that updates a user's notification ringbell, sends a push notification, and keeps track of their badge count",
-      "Built authentication mechanism that allows users to reset password, request new code, sign-up, sign-in, and delete account",
-      "Coded efficient and blazingly fast filtering and searching (with debounce) mechanism for in-app search engine",
-      "Manufactured internal tools that allows salespersons to onboard businesses and respond to queries/complaints",
-      "Design pleasant UI/UX with good use of pop-ups, animations, lines, shadows, icons, graphics, and maintaining consistent colors and fonts",
-      "Secure REST and Google APIs with Firebase App Check, JWT token, rate limiting, app/service restrictions, etc",
-      "Orchestrate excellent software with high availability, high scalability, and high frugality, striving for high-quality",
-      "Write high-performant front-end software using useCallback/useMemo, caching, and virtualization technique to enhance rendering speed",
-      "Streamline the user experience by building an in-app complaint mechanism and responding to emails and phone calls",
-      "Biased towards action, I make lean and quick decisions to ensure the team moves fast and feels a sense of urgency",
-      "Lead daily standups, sprint planning, code reviews, decision-making processes, and pair-programming sessions",
-    ],
-    img: [],
-  },
+  // {
+  //   company: "Campfire Loyalty",
+  //   time: "Sep 2023 - Present",
+  //   position: "Founder/Lead Software Engineer",
+  //   location: "Ypsilanti, Michigan",
+  //   bullet: [
+  //     "Onboarded and increased 17+ businesses' customer engagement rates and acquired 5+ active users who regularly upload receipts and get rewarded by pitching door-to-door, outreaching, participating in events, and marketing",
+  //     "Designed a scalable loyalty program system that allows business owners to upload/edit/delete coupons, edit store information, audit transactions, and view metrics, and allows end-users to upload receipts, receive points, and purchase/redeem coupons (AWS, DynamoDB)",
+  //     "Implemented a $5 monthly coupon passport subscription service (Stripe) with features such as unsubscribing, resubscribing, and default/add/delete payment method by collaborating with MoCoShow",
+  //     "Implemented paginated APIs to fetch items such as getting nearby businesses/coupons and visualize them on the app's map feature, sorted by distance",
+  //     "Notify users of any promotional campaign, activity update, and confirmation message by implementing a scalable and secure notification mechanism that updates a user's notification ringbell, sends a push notification, and keeps track of their badge count",
+  //     "Built authentication mechanism that allows users to reset password, request new code, sign-up, sign-in, and delete account",
+  //     "Coded efficient and blazingly fast filtering and searching (with debounce) mechanism for in-app search engine",
+  //     "Manufactured internal tools that allows salespersons to onboard businesses and respond to queries/complaints",
+  //     "Design pleasant UI/UX with good use of pop-ups, animations, lines, shadows, icons, graphics, and maintaining consistent colors and fonts",
+  //     "Secure REST and Google APIs with Firebase App Check, JWT token, rate limiting, app/service restrictions, etc",
+  //     "Orchestrate excellent software with high availability, high scalability, and high frugality, striving for high-quality",
+  //     "Write high-performant front-end software using useCallback/useMemo, caching, and virtualization technique to enhance rendering speed",
+  //     "Streamline the user experience by building an in-app complaint mechanism and responding to emails and phone calls",
+  //     "Biased towards action, I make lean and quick decisions to ensure the team moves fast and feels a sense of urgency",
+  //     "Lead daily standups, sprint planning, code reviews, decision-making processes, and pair-programming sessions",
+  //   ],
+  //   img: [],
+  // },
   {
     company: "panoRazzi",
     time: "Jan 2024 - Mar 2024",
